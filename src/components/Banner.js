@@ -59,7 +59,7 @@ export const Banner = () => {
                 <h1>{`I'm Shreedhar Tiwari`} </h1>
                 <h1><span className="txt-rotate" dataPeriod="3000" data-rotate='[ "CSE Undergrad at IIITNR" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Proficient in DSA and Web developing, Good grasp in CS Fundamentals like Operating system, DBMS, Computer network and OOPS.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.open("https://www.linkedin.com/in/shreedhar-tiwari-892070202/")}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
